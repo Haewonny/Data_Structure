@@ -42,3 +42,19 @@
 - get_rear() : 덱의 뒤에 있는 요소를 삭제하지 않고 보기(read)만 하는 연산
 ```
 ***
+> ### 리스트 (list)
+>   > 항목들이 차례대로 저장되어 있고, 리스트의 항목들은 순서 또는 위치를 가짐
+>
+```
+- insert(list, pos, item) : pos 위치에 요소를 추가함 -> 아무 곳에나 데이터를 삽입할 수 있음
+- insert_last(list, item) : 맨 끝에 요소를 추가함
+- insert_first(list, item) : 맨 처음에 요소를 추가함
+- delete(list, post) : pos 위치의 요소를 제거함
+- clear(list) : 리스트의 모든 요소를 제거함
+- get_entry(list, pos) : pos 위치의 요소를 반환함
+- get_length(list) : 리스트의 길이를 구함
+- is_empty(list) : 리스트가 비었는지를 검사함
+- is_full(list) : 리스트가 꽉 찼는지를 검사함
+- print_list(list) : 리스트의 모든 요소를 표시함 
+```
+***
