@@ -34,8 +34,8 @@ ListNode* search_list(ListNode* head, element x) {
     ListNode* p = head; // 포인터 p는 리스트 안의 항목들을 앞에서부터 가리킴
     while(p != NULL) {
         if(p -> data == x)
-            return p; // p를 한칸씩 뒤로 이동
-        p = p -> link;
+            return p;
+        p = p -> link; // p를 한칸씩 뒤로 이동
     }
     return NULL; // 탐색 실패
 }
