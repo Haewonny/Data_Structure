@@ -49,7 +49,7 @@
 - insert(list, pos, item) : pos 위치에 요소를 추가함 -> 아무 곳에나 데이터를 삽입할 수 있음
 - insert_last(list, item) : 맨 끝에 요소를 추가함
 - insert_first(list, item) : 맨 처음에 요소를 추가함
-- delete(list, post) : pos 위치의 요소를 제거함
+- delete(list, pos) : pos 위치의 요소를 제거함
 - clear(list) : 리스트의 모든 요소를 제거함
 - get_entry(list, pos) : pos 위치의 요소를 반환함
 - get_length(list) : 리스트의 길이를 구함
