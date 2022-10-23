@@ -51,12 +51,13 @@ void print_list(ListNode* head) {
 
    if(head == NULL) // 리스트가 비었다면
        return;
-   p = head -> link; // 첫째 노드(출력의 시작점)
-   do {
-       printf("%d -> ", p -> data);
-       p = p -> link; // 옆으로 이동
-   } while(p != head);
-
+//   p = head -> link; // 첫째 노드(출력의 시작점)
+//   do {
+//       printf("%d -> ", p -> data);
+//       p = p -> link; // 옆으로 이동
+//   } while(p != head);
+    for(p = head -> link; p != head; p = p -> link)
+        printf("%d -> ", p -> data);
    printf("%d -> ", p -> data); // 마지막 노드 출력 (p -> head)
 }
 
