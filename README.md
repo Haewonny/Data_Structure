@@ -86,3 +86,18 @@
 - find(q) : 우선순위가 가장 높은 요소를 반환함
 ```
 ***
+> ### 그래프 (graph)
+>   > 연결되어 있는 객체 간의 관계를 표현, G = (V, E) : 정점의 집합과 간선의 집합
+>
+```
+- create_graph() : 그래프를 생성
+- init(g) : 그래프 g를 초기화함
+- insert_vertex(g, v) : 그래프 g에 정점 v를 삽입함
+- insert_edge(g, u, v) : 그래프 g에 간선 (u, v)를 삽입함
+- delete_vertex(g, v) : 그래프 g의 정점 v를 삭제함
+- delete_edge(g, u, v) : 그래프 g의 간선 (u, v)를 삭제함
+- is_empty(g) : 그래프 g가 공백 상태인지 확인함
+- adjacent(v) : 정점 v에 인접한 정점들의 리스트를 반환함
+- destroy_graph(g) : 그래프 g를 제거함
+```
+***
