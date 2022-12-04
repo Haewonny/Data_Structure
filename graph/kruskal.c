@@ -15,6 +15,7 @@
  */
 
 #define MAX_VERTICES 100 // 프로그램에서 다루는 그래프의 최대 크기
+
 struct Edge { // 간선을 나타내는 구조체
     int start, end; // 간선의 양끝 노드
     int weight; // 가중치
