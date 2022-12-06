@@ -114,7 +114,7 @@ void bfs_mat(GraphType* g, int v) {
     while(!is_empty(&q)) { // 큐가 비어있지 않다면
         v = dequeue(&q); // 큐에 정점 추출
         for(w = 0; w < g -> n; w++) { // 인접 정점 탐색
-            if(g -> adj_mat[v][w] && !visited[w]) { // ** v와 연결이 안 되어있고, 방문을 안 했다면
+            if(g -> adj_mat[v][w] && !visited[w]) { // ** v와 연결이 되어있고, 방문을 안 했다면
                 visited[w] = 1; // 방문 표시
                 printf("%d 방문 -> ", w);
                 enqueue(&q, w); // 방문한 정점을 큐에 저장
