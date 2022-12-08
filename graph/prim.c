@@ -48,6 +48,7 @@ void prim(GraphType* g, int s) {
 
     for(i = 0; i < g -> n; i++) {
         u = get_min_vertex(g -> n); // 누가 제일 값이 작은지
+        
         selected[u] = TRUE;
         if(distance[u] == INF)
             return; // 연결하지 않음
